@@ -92,22 +92,6 @@ El programa define tres errores personalizados:
 
 Ambas usan `owner.toBuffer()` como parte de las semillas para vincularlas al propietario.
 
-## Requisitos previos
-
-- Node.js instalado
-- Wallet de Solana (Phantom, Solflare, etc.)
-- SOL en la wallet para pagar las transacciones
-
-## Como usar (Solana Playground)
-
-1. Abrir https://beta.solpg.io/
-2. Crear un nuevo proyecto Anchor
-3. Pegar el codigo `src/lib.rs` (programa Rust)
-4. Hacer click en Build y luego Deploy
-5. En la pestaña client, pegar el codigo `client.ts`
-6. Descomentar las funciones de prueba en orden logico
-7. Ejecutar con el boton Run
-
 ## Orden recomendado para probar
 
 ```typescript
